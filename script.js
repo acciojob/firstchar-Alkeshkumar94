@@ -1,5 +1,6 @@
 function firstChar(text) {
   // your code here
+	text=text.trim();
 	if(!text)
 	{
 		return '';
