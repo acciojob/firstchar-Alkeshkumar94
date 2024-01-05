@@ -1,5 +1,13 @@
 function firstChar(text) {
   // your code here
+	if(!text)
+	{
+		return '';
+	}
+	else
+	{
+		return text[0];
+	}
 }
 
 // Do not change the code below
